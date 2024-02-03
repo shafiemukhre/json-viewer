@@ -1,0 +1,12 @@
+.App {
+  margin-left: 20px;
+}
+
+.child {
+  padding: 3px 0 3px 0;
+  margin-left: 20px;
+  border-left: 1px solid black;
+  &:before {
+    content: "— ";
+  }
+}
